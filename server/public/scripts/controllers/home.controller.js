@@ -5,7 +5,7 @@ myApp.controller('HomeController', ['$http', function($http) {
   self.pet = {};
   self.message = "Welcome to the Home View";
 
-  var api_key = "";
+  var api_key = "59cbc879718cb09c31090b72d7de2959";
   var baseURL = "http://api.petfinder.com/";
 
   self.getRandomPet = function() {

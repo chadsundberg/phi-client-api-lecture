@@ -1,3 +1,20 @@
 <h1>Other View</h1>
 
 <p>{{oc.message}}</p>
+
+<button ng-click="oc.getRandomPet()">Get Random Pet</button>
+
+<div class="row">
+  <div class="col-md-12">
+      <!-- hc.pet = response.data.petfinder.pet -->
+    <h2>{{oc.pet.name.$t}}</h2>
+    <p>{{oc.pet.description.$t}}</p>
+  </div>
+</div>
+
+
+
+
+<!-- <h1>Other View</h1>
+
+<p>{{oc.message}}</p> -->
